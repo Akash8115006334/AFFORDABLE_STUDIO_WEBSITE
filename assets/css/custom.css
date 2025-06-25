@@ -1,0 +1,3330 @@
+
+/* register-form for contact page Body and Container Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Heading Section */
+.form-heading {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-hr {
+    border: 0;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Form Group and Input Styling */
+.form-group {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: orange;
+}
+
+/* Full Width Styling for Textarea */
+textarea {
+    resize: none;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: orange;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .form-container {
+        width: 95%;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+
+/* registration form closed */
+
+/* start terms & Privacy & Refund */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.content-heading {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .content-container {
+        width: 95%;
+    }
+}
+
+
+/* closed terms & Privacy & Refund */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set the background color of the body */
+body {
+    background-color: aliceblue;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* start top nav bar Global reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.top-nav {
+    background-color:#008428; /* Background color for the nav bar */
+    color: white; /* Font color */
+    font-family: Arial, sans-serif; /* Font choice for readability */
+    padding: 10px 0; /* Padding for top and bottom */
+    position: fixed; /* Keep the navbar fixed on top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Navbar covers the full width */
+    z-index: 999; /* Ensures the navbar stays on top */
+    overflow: hidden; /* Hides text that overflows */
+    padding-bottom: 4px;
+}
+
+/* Ticker animation */
+.ticker {
+    display: inline-block; /* Ensure the ticker behaves like a single line */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: visible !important;
+    box-sizing: border-box; /* Ensure padding is considered */
+    width: 100%; /* Limit to the container width */
+}
+
+.ticker-content {
+    display: inline-block; /* Keep content on one line */
+    animation: scroll-left 20s linear infinite; /* Smooth scrolling animation */
+}
+
+/* Scroll animation keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%); /* Start from outside the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move completely out of view to the left */
+    }
+}
+
+/* end top nav bar Global reset for margin and padding */
+
+/* Start logo section */
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.brand-logo {
+    padding-top: 35px;
+}
+
+/* End logo section */
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero-banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background: url('img/%c3%a0%c2%a4%c2%a6%c3%a0%c2%a5%c2%80%c3%a0%c2%a4%c2%a8.html\ दयाल\ जन\ आवास\ योजना.png') no-repeat center center/cover;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1200px) {
+    .hero-banner {
+        height: 600px;
+    }
+}
+
+    @media (max-width: 768px) {
+        .hero-banner {
+            height: 400px;
+        }
+    }
+
+        @media (max-width: 480px) {
+            .hero-banner {
+                height: 300px;
+            }
+        }
+
+
+/* 4 button colomn for register-btn */
+.pdtb {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* Center entire container */
+    align-items: center;
+    text-align: center;
+    position: relative; /* Ensure it stays in place */
+    z-index: 1; /* Prevents overlap with the banner */
+}
+
+
+/* Row Flexbox for Single Line */
+.row {
+    display: flex;
+    justify-content: space-around; /* Center content horizontally */
+    align-items: center;
+    flex-wrap: nowrap; /* Disable wrapping for desktop */
+    gap: 15px; /* Add space between boxes */
+    position: relative;
+    z-index: 1; /* Prevent boxes from overlapping with other elements */
+}
+
+.pdtb .row {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+/* Column Style for Desktop and Mobile */
+.col-md-4 {
+    width: auto; /* Adjust width automatically */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* General box style */
+.blink-main {
+    background-color: orange; /* Default orange background */
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f3f0f0;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect: turns green */
+.blink-main:hover {
+    background-color: #009553; /* Green on hover */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+/* Only First button should blink */
+.blinker {
+    animation: blinker 1.5s linear infinite;
+}
+
+/* Blinking Animation for the first button */
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Red background for "Registration Open" button */
+.red-bg {
+    background-color: orange; /* Change to orange */
+}
+
+/* Padding and Text Alignment */
+.text-center {
+    text-align: center;
+}
+
+/* Additional Styling */
+a {
+    text-decoration: none;
+}
+
+/* Responsive for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 0; /* Ensure there's no extra padding on the body */
+    }
+
+    .pdtb {
+        justify-content: center; /* Center the container */
+        align-items: center;
+        margin: 0 auto; /* Center the container on mobile */
+        width: 100%; /* Ensure the container takes up full width */
+        box-sizing: border-box;
+    }
+
+.pdtb .row {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    /* margin-top: 70%; */
+}
+
+
+    .row {
+        flex-direction: column; /* For smaller screens, stack the boxes vertically */
+        align-items: center;
+        width: 100%; /* Full width for mobile view */
+    }
+
+    .col-md-4 {
+        width: 100%; /* Full width for boxes on smaller screens */
+    }
+
+    .blink-main {
+        width: 100%; /* Ensure the buttons take full width on mobile */
+        max-width: 300px; /* Prevent the buttons from being too wide */
+    }
+
+    /* Prevent overlapping with other sections */
+    .pdtb {
+        position: relative;
+        z-index: 1; /* Keep it above other sections */
+    }
+}
+
+/* Ensure proper padding/margin for all buttons */
+.blink-main {
+    margin: 10px; /* Margin around each box */
+    padding: 15px 20px; /* Padding inside the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+/* end 4 button Section Styling */
+
+/* contact us form  Section Styling */
+/* Main container with changed class */
+.rk-bhardwaj {
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.rk-bhardwaj .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Section Header Styling */
+.section-header h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: green; /* Green color for Contact Us heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Form Styling */
+.form-overlay {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.form-overlay:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced Input Fields Styling */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #5cb85c; /* Green border on focus */
+    box-shadow: 0px 4px 10px rgba(92, 184, 92, 0.3);
+    outline: none;
+}
+
+#name, #phone, #email, #message {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#name::placeholder,
+#phone::placeholder,
+#email::placeholder,
+#message::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Button Styling */
+.btn-success {
+    padding: 12px 25px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.btn-success:hover {
+    background-color: #4cae4c;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Align the Submit Button Left */
+.contact-form-submit {
+    text-align: left;
+}
+
+/* Textarea Spanning Full Width */
+.contact-form-message textarea {
+    width: 100%;
+}
+
+/* Mobile-Friendly Adjustments */
+@media (max-width: 768px) {
+    .rk-bhardwaj {
+        padding: 20px;
+    }
+
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    .form-group input, .form-group textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* About Us Studio Apartment Section Styling */
+.about-section .card{
+    height: 30rem;
+    overflow: hidden;
+}
+
+.about-section {
+    padding: 20px;
+}
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blinking-heading h2 {
+    background-color: #EB8224;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    animation: blink 1s infinite;
+}
+
+.blinking-heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color:  white;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-text {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 10px;
+}
+.about-text h3 {
+    margin-top: 0;
+}
+.about-text hr {
+    margin: 10px 0;
+}
+.paragraph-limit {
+    margin-bottom: 10px;
+}
+.rahul image-container {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;}
+
+.image-box {
+    width: 100%;
+    height: auto;
+}
+/* Make the image responsive */
+.responsive-image {
+    width: 100%; /* This makes the image fit its container's width */
+    height: auto; /* Maintains the aspect ratio of the image */
+    max-width: 1240px; /* Set the maximum width for larger screens */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Optional: Add some padding to ensure the image doesn't touch the section borders */
+.image-section {
+    padding: 20px 0;
+}
+
+/* Main container style for Configuration Section */
+/* General Styles */
+.configuration-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1; /* Allows equal space for each box */
+}
+
+/* For desktop/tablet view - all boxes in a single row */
+@media (min-width: 769px) {
+    .configuration {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* For mobile view - boxes stacked */
+@media (max-width: 768px) {
+    .configuration {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Make the boxes smaller on mobile */
+    .configuration-box {
+        width: 80%; /* Adjust width as per your design */
+        margin-bottom: 15px;
+    }
+
+    /* Add top spacing */
+    .configuration {
+        margin-top: 20px; /* Adjust the top space */
+    }
+}
+
+
+/* Table Head Styling */
+.emi-table thead {
+    background-color: #ff9800; /* Luxurious orange background for the header */
+    color: white;
+    font-weight: bold;
+}
+
+.emi-table th {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd; /* Border for neat structure */
+    text-transform: uppercase; /* Capitalize for bold look */
+}
+
+/* Table Body Styling */
+.emi-table tbody {
+    background-color: white; /* White background for data */
+}
+
+.emi-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+/* Hover Effect for Table Rows */
+.emi-table tbody tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .emi-table th, .emi-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .payment-section h2 {
+        font-size: 28px;
+    }
+
+    .payment-section p {
+        font-size: 16px;
+    }
+}
+
+/* Site Plan Section Styling */
+.site-plan-section {
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Add soft shadow */
+    animation: fadeInUp 1s ease-in-out; /* Smooth fade-in animation */
+}
+
+.site-tittle h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    background-color: #007bff;
+}
+
+.banner-container{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Bank Loan Banner Styling */
+.bank-loan-banner {
+    background-color: aliceblue; /* Orange banner */
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    animation: slideIn 1.2s ease-in-out;
+}
+
+.bank-loan-banner h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #292b29;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+/* Slide-In Animation for Banner */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* start Site map Location Advantages Section */
+.shadow-container {
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Overlapping shadow effect */
+    background-color: #fff;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 20px 0;
+  }
+  
+  /* Location Map */
+  .location-map iframe {
+    border: 0;
+    width: 600px;
+    height: 380px;
+    border-radius: 10px; /* Makes the map look nice with rounded corners */
+  }
+  
+  /* List styling for location advantages */
+  .list-main ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-main ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-main ul li i {
+    margin-right: 10px;
+    color: #007bff; /* Icon color */
+    font-size: 20px;
+  }
+  
+  .section-header hr {
+    border: none;
+    height: 2px;
+    background-color: #121213;
+    width: 100%; /* Full width horizontal line */
+}
+  /* Responsive Design for Mobile */
+  @media (max-width: 767px) {
+    .location-map iframe {
+      height: 300px; /* Adjust map height for smaller screens */
+    }
+  
+    .shadow-container {
+      padding: 15px;
+      margin: 10px 0;
+    }
+  
+    /* Ensuring the content and map stack vertically */
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list-main ul li {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  }
+  
+  /* Section Header */
+  .section-header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Optional: Overall section spacing and background */
+  .overview {
+    padding: 40px 0;
+  }
+  
+/* end Site map Location Advantages Section */
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+    .site-plan-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-container, .location-advantages {
+        width: 100%;
+    }
+
+    .location-advantages ul li {
+        font-size: 16px;
+    }
+
+    .bank-loan-banner {
+        font-size: 18px;
+    }
+}
+
+/* Amenities Section Styling */
+.amenities-section {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    animation: fadeInUp 1s ease-in-out;
+    flex: auto;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Amenities Heading */
+.amenities-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: slideIn 1.2s ease-in-out;
+}
+
+/* Slide-in Animation for Heading */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    align-items: stretch;
+}
+
+/* Grid Item Styling */
+.grid-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Image Styling */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 5px solid #ff9800; /* Add bottom border for visual appeal */
+}
+
+/* Caption Text */
+.grid-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0;
+}
+
+/* Hover Effect */
+.grid-item:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+
+    .amenities-section h2 {
+        font-size: 28px;
+    }
+}
+
+.footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-footer img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-footer img:hover {
+    transform: scale(1.1);
+}
+
+.footer-description p {
+    font-size: 16px;
+    color: #333
+}
+
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #0056b3;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Top Bar sticky bar */
+.top-bar {
+    background-color: #50A95B; /* Black background for the top bar */
+    padding: 10px 0; /* Padding for the bar */
+    color: #fff; /* White text color */
+  }
+  
+  .headtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style for phone and email buttons */
+  .redbutn {
+    background-color: #e74c3c; /* Red background for buttons */
+    color: #fff; /* White text on buttons */
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .redbutn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Marquee Text Styles */
+  .scroll-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff; /* White text for scrolling */
+    padding-left: 10px; /* Padding to start a bit away from the edge */
+    margin: 5px 0; /* Vertical spacing */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .scroll-text {
+      font-size: 12px; /* Smaller text for mobile */
+    }
+  
+    .redbutn {
+      font-size: 12px; /* Smaller button text for mobile */
+    }
+  }
+  
+/* Logo Section Styles */
+.logo-section {
+    background-color: #fff; /* Background color for the logo section */
+    text-align: center; /* Center align the logo horizontally */
+    padding: 0 0; /* Padding for the top and bottom */
+    width: 100%; /* Make sure the logo section takes full width */
+  }
+   
+  /* Style for the logo image */
+  .brand-logo {
+    max-width: 100%; /* Ensure the logo covers full width without stretching */
+    height: auto; /* Maintain aspect ratio for the logo */
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the logo inside the container */
+  }
+  
+  /* Responsive styling for mobile devices */
+  @media (max-width: 768px) {
+    .brand-logo {
+      max-width: 100%; /* Adjust the logo size for smaller screens */
+    }
+  }
+  
+
+/* Green Bar Styling */
+.ravi {
+    background-color: #00821a; /* Green background */
+    height: 50px; /* Fixed height for the nav bar */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    color: #fff; /* White text color */
+    font-size: 1.2rem; /* Text size */
+    position: relative; /* Stick to the top */
+    top: 0; /* Align at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.ravi P{
+    text-align: center;
+    margin: 10px 0;
+    padding-right: 10px;
+    line-height: 1.6;
+    color: #fff;
+    font-size: medium;
+}
+
+/* Responsive styling for mobile */
+@media only screen and (max-width: 768px) {
+    .ravi p {
+        font-size: 1rem; /* Adjust text size for mobile */
+    }
+}
+
+  /* Menu Bar Styles */ /* Navbar container */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    position: relative;
+    flex-wrap: wrap; /* Ensure wrapping for smaller devices */
+}
+
+/* Left Menu styles */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+/* Menu Links */
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: orange; /* Hover effect to change color to orange */
+}
+
+/* Helpline and Mobile Number styling */
+.helpline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Keep helpline and number in one line for mobile */
+.helpline span {
+    font-weight: bold;
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Mobile number blinking between black and red */
+.mobile-number {
+    font-weight: bold;
+    animation: blink-mobile-number 1s infinite;
+}
+
+@keyframes blink-mobile-number {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+
+/* Buttons styling */
+.button-green, .button-orange {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold; /* Bold text for buttons */
+    flex: 1;
+}
+
+.top-buttons{
+  flex: wrap;
+}
+
+/* Green button styling */
+.button-green {
+    background-color: #50A95B;
+}
+
+/* Blinking effect for "Registration Open" text */
+.blink {
+    animation: blink-button-text 1s infinite;
+}
+
+@keyframes blink-button-text {
+    0% { color: red; }
+    50% { color: white; }
+    100% { color: red; }
+}
+
+/* Orange button styling */
+.button-orange {
+    background-color: #EB8224;
+}
+
+/* Flexbox for buttons, with equal spacing */
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Ensure both buttons are equal size */
+.buttons button {
+    flex: 1;
+    text-align: center;
+    white-space: nowrap; /* Prevent text break */
+}
+
+/* orange and green button closed */
+/* Ensure this code only applies to mobile devices */
+@media only screen and (max-width: 768px) {
+    .top.buttons {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center;    /* Center the buttons horizontally */
+        gap: 10px;              /* Add some spacing between the buttons */
+        padding: 0 10px;        /* Add a little padding to avoid edge cut-off */
+        width: 100%;            /* Make the button container take full width */
+    }
+    
+    .top.buttons button {
+        width: 100%;        /* Make the buttons take full width */
+        max-width: 100%;    /* Prevent them from exceeding 100% */
+        box-sizing: border-box; /* Ensure padding doesn't increase the button size */
+    }
+    
+    /* To ensure no extra space appears on the right side of the page */
+    body, html {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Make sure anchor tags inside the buttons behave properly */
+    .top.buttons button a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;  /* Inherit the color from the button */
+        width: 100%;
+    }
+    
+    /* Optional: Adjust the button text size for smaller screens */
+    .top.buttons button span.blink {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* orange and green button closed */
+
+
+/* Media query for mobile/tablet view */
+@media (max-width: 768px) {
+    /* Aligning navbar items in column for mobile view */
+    .navbar {
+        justify-content: space-around; /* Center content */
+    }
+
+    /* Keep helpline and number on the same row */
+    .helpline {
+        align-items: top;
+    }
+
+    /* Center buttons with equal size */
+    .buttons {
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Hide the menu by default on mobile */
+    .menu {
+        display: none;
+    }
+
+    /* Show toggle button on mobile */
+    .toggle-btn {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: black; /* Black colored icon */
+        padding: 10px;
+        background: none;
+        border: none;
+    }
+
+    /* Menu active class to show on toggle click */
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        animation: slide-in 0.3s ease-in-out;
+    }
+
+    /* Slide-in effect for menu */
+    @keyframes slide-in {
+        from { transform: translateY(-100%); }
+        to { transform: translateY(0); }
+    }
+
+    /* Buttons should be full width on mobile */
+    .buttons button {
+        width: 100%;
+    }
+}
+
+/* Toggle icon style */
+.toggle-btn {
+    display: none; /* Default hidden for desktop */
+    font-size: 24px;
+    color: black; /* Black icon */
+    cursor: pointer;
+}
+
+/* Show toggle button on mobile */
+@media (max-width: 768px) {
+    .toggle-btn {
+        display: block;
+        margin-left: auto;
+        display: inline-flex;
+    }
+}
+
+
+/* Box Hover Effect */ Blink button
+.custom-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Image on the left takes full width and height of the column */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+/* Text content on the right aligned to match the image height */
+.content-box {
+    padding-left: 20px; /* Spacing between image and text */
+}
+
+/* Headings in the content section */
+.content-box h4 {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling in the content */
+.content-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Configuration Section Styling */
+.configuration-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Individual Configuration Boxes */
+.configuration-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin: 30px;
+}
+
+/* Configuration Box Hover Effect */
+.configuration-box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Configuration Box Title and Text */
+.configuration-box h6 {
+    font-size: 14px;
+    color: #ea7642;
+    margin-bottom: 10px;
+}
+
+.configuration-box p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .custom-box {
+        padding: 10px;
+    }
+
+    .image-container img {
+        margin-bottom: 20px;
+    }
+
+    .content-box {
+        padding-left: 0;
+    }
+
+    .configuration-section {
+        flex-direction: column;
+    }
+
+    .configuration-box {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-box {
+        padding: 10px;
+    }
+
+    .content-box {
+        padding: 10px 0;
+    }
+}
+
+/* Hero Section Styles */
+
+/* Hero Section container */
+.hero-section {
+    display: flex;
+    /* height: 100vh; */
+}
+
+/* Left side Image */
+.hero-image {
+    flex: 0 0 60%; /* Image takes up 60% width */
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+     /* Ensures the image is fully visible without cropping */
+}
+
+/* Right side content */
+.hero-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FEFEDF;
+}
+
+/* Main heading */
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+	color: black
+}
+
+/* Horizontal line */
+.hero-content hr {
+    width: 100%;
+    border: 1px solid rgb(36, 32, 32);
+    margin-bottom: 15px;
+}
+
+/* Location text */
+.hero-content .location {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Subheading */
+.hero-content h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+/* Badge Image (Sticker) */
+.badge-img {
+    position: absolute;
+    padding-top: 10px;
+    right: -70px;  /* Adjust this value to position the badge properly */
+    width: 20px;   /* Badge size */
+    height: auto;
+}
+
+/* Features list */
+.hero-content .features {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.hero-content .features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+	color: black;
+}
+
+/* Registration Button */
+.register-btn {
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    animation: blink 1s infinite; /* Blinking effect */
+}
+
+/* Blinking button text effect */
+@keyframes blink {
+    50% { color: green; }
+}
+
+/* Registration Fee Information */
+.registration-fees {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.registration-fees .fee {
+    font-size: 16px;
+    text-align: center;
+	font-weight: bold;
+	color: black;
+    width: 48%;
+    padding: 10px;
+    background-color: #e1b92e;
+}
+
+/* Mobile responsive layout */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column; /* Stack image and content vertically */
+    }
+
+    /* Make the image take full width in mobile view */
+    .hero-image {
+        flex: 0 0 auto;
+    }
+
+    .hero-image img {
+        width: 100%; /* Image takes full width of the screen */
+        height: auto;
+    }
+
+    /* Adjust content padding */
+    .hero-content {
+        padding: 20px;
+    }
+
+    /* Adjust the size of the text for mobile */
+    .hero-content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero-content h2 {
+        font-size: 22px;
+    }
+
+    .hero-content hr {
+        width: 100%;
+        border: 1px solid black;
+        margin-bottom: 15px;
+    }
+    
+    .location {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-content .location, .hero-content .features li, .register-btn {
+        font-size: 16px;
+    }
+
+    /* Registration fees section adjustment for mobile */
+    .registration-fees {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registration-fees .fee {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+    
+
+/* head below contact form Styles */
+.contact {
+    background-color: aliceblue;
+}
+
+.section-header h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between fields */
+}
+
+.form-control {
+    height: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    padding: 10px; /* Padding inside the input fields */
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.contact-form-submit .btn {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-submit .btn:hover {
+    background-color: #218838;
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 40px 0;
+    background-color: aliceblue;
+  }
+  
+  /* Container with shadow */
+  .container-box {
+    max-width: 1200px;
+    margin: 0 auto !important;
+    margin-top: 6rem !important;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Blinking Heading Styles */
+  .blinking-heading {
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 8px;
+    animation: blink 1s linear infinite;
+  }
+  
+  .blinking-heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Blink Animation */
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Left Text Styling */
+  .about-text {
+    text-align: left;
+    max-width: 40%;
+  }
+  
+  .about-text h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-text hr {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin: 10px 0;
+  }
+  
+  .about-text p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .about-text ul li{
+    line-height: 1.4;
+    text-align: justify;
+    margin-left: -2rem;
+  }
+
+  .about-text .content{
+    background-color: #FEFEDF;
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-top: -35px;
+  }
+
+  .about-text .content img{
+    border-radius: 10px;
+  }
+
+  .about-text .content .paragraph-limit{
+    width: 100%;
+  }
+
+  .about-text .content p{
+    line-height: 1.5;
+    padding-right: 0;
+  }
+  
+  /* Right Side Image Styling */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-text {
+      max-width: 100%;
+    }
+    .image-box {
+      width: 100%;
+    }
+  }  
+  
+/* Amenities Styles */
+
+.amenities-container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.featSlider {
+    overflow: hidden;
+}
+
+.swiper {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    flex: 1 0 25%; /* 4 images in a row */
+    margin-right: 10px; /* Space between images */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.amenities-slide {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.galImg img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.galImg:hover img {
+    transform: scale(1.05);
+}
+
+.gal-caps {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Swiper Button Styles */
+.swiper-button-prev, .swiper-button-next {
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+
+/* start highlights point Section */
+.highlights-container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.highlight_section {
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-item {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.grid-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #007bff;
+    width: 100%; /* Full width horizontal line */
+}
+
+p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* Stack items vertically on mobile */
+    }
+}
+/* end highlights point Section */
+
+
+/* footer section container */
+.footer-container {
+    background-color: #fefedf; /* Adjust background color as needed */
+    padding: 40px 0; /* Adjust padding for top and bottom */
+    border-top: 1px solid #ddd; /* Optional border at the top */
+}
+
+.footer-address {
+    margin-bottom: 20px; /* Space between address boxes */
+}
+
+.footer-address-box {
+    padding: 15px;
+    background: white; /* Box background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-address-box P {
+    text-align: left;
+    margin: 10px 10px;
+    padding-right: 10px;
+    line-height: 1.6;
+    height: auto;
+}
+
+.disclaimer-box {
+    margin-top: 30px; /* Space above disclaimer text */
+    padding: 20px; /* Padding inside the disclaimer box */
+    background: #fff; /* Background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
+}
+
+.disclaimer-box .visitor-count{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.disclaimer-box p{
+    padding-right: 0 !important;
+    width: 100%;
+}
+
+.disclaimer {
+    color: #555; /* Text color */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+/* Get In Touch Spiti Section Styles */
+
+/* General container styling */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Row Layout */
+.row.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Left Side: Title, Paragraph, and Form */
+.content-left {
+    flex: 0 0 45%; /* Fixed width of 45% */
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.line-separator {
+    width: 50%; /* Line matches title width */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0;
+    padding-right: 10px;
+    line-height: 1.6;
+    width: 90%; /* Keep text width limited */
+}
+
+/* Get In Touch Form */
+/* General container styling */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Row Layout */
+.row.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Left Side: Title, Paragraph, and Form */
+.content-left {
+    flex: 0 0 45%; /* Fixed width of 45% */
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.line-separator {
+    width: 50%; /* Line matches title width */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0;
+    padding-right: 10px;
+    line-height: 1.6;
+    width: 90%; /* Keep text width limited */
+}
+
+/* Get In Touch Form */
+/* General container and layout styling */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left side styling */
+.content-left {
+    flex: 0 0 45%; /* Fixes width to around 45% */
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.line-separator {
+    width: 50%; /* Horizontal line the length of the title */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 0;
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+/* Get in Touch Form Section */
+.get-in-touch-container {
+    margin-top: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ea7642;
+    margin-right: 20px;
+}
+
+.form-container {
+    flex-grow: 1;
+}
+
+form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ea7642;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d1551a;
+}
+
+/* Right side image styling */
+.content-right {
+    flex: 0 0 45%; /* Takes 45% of the total width */
+    padding: 20px;
+    position: relative;
+}
+
+.nav image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 645px; /* Set the desired max height */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    
+    left: 0;
+    transition: opacity 1s ease-in-out; /* Smooth transition for image opacity */
+    opacity: 1; /* Hidden by default */
+}
+
+.image-container img.active {
+    opacity: 1; /* Only the active image is visible */
+}
+
+.image-dots {
+    position: absolutbe;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #ea7642; /* Highlight active dot */
+}
+
+/* Responsive for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .content-left, .content-right {
+        flex: 0 0 100%; /* Left and Right Columns will stack */
+        text-align: center;
+    }
+
+    .image-container {
+        margin-top: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .line-separator {
+        margin: 0 auto;
+    }
+
+    .form-wrapper {
+        flex-direction: column;
+    }
+
+    .vertical-text {
+        display: none; /* Hide vertical text in mobile */
+    }
+}
+
+
+/* Fix for the Bottom Section */
+.row.bottom-section {
+    margin-top: 30px; /* Add space between sections */
+    padding-top: 20px;
+    border-top: 1px solid #ddd; /* Divider between sections */
+}
+
+/* Mobile and Desktop Responsiveness */
+@media only screen and (max-width: 768px) {
+    .content-left, .content-right {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .image-container {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .line-separator {
+        margin: 0 auto;
+    }
+
+    .get-in-touch-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vertical-text {
+        display: none;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+}
+      
+
+/* A4 size 2 banner Styling */
+.awas-yojna-plan {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #FEFEDF; /* Light background for contrast */
+}
+
+/* Centering the title */
+.awas-yojna-plan h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #002366; /* Navy blue text color */
+}
+
+/* Container for the images */
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between the two images */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Individual image box */
+.image-box {
+    flex: 1;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow around images */
+}
+
+/* Styling for the images */
+.awas-img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Limiting height to maintain aspect ratio */
+    object-fit: contain; /* Ensures the image doesn't stretch or crop */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the images */
+.awas-img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Responsive design for tablets and mobile */
+@media screen and (max-width: 768px) {
+    .images-container {
+        flex-direction: column;
+    }
+
+    .image-box {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* sitemap landsacpe image the section */
+.site-map-landscap {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Centering the title */
+.awas-yojna-plan h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Neutral text color */
+}
+
+/* Container for the images */
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between the two images */
+    width: 100%;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 10px 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around container */
+}
+
+/* Individual image box */
+.image-box {
+    flex: 1;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around images */
+}
+
+/* Styling for the images */
+.awas-img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Limiting height to maintain aspect ratio */
+    object-fit: contain; /* Ensures the image doesn't stretch or crop */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the images */
+.awas-img:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+}
+
+/* Responsive design for tablets and mobile */
+@media screen and (max-width: 768px) {
+    .images-container {
+        flex-direction: column;
+    }
+
+    .image-box {
+        margin-bottom: 20px;
+    }
+}
+
+/* Luxury Residential Plots Section */
+/* General Section Styles */
+.w-100.ravibgstar {
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    height: 360px;
+    background-color: aliceblue;
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+
+/* Overlay Text Section */
+.ravibgstar-abs {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    background-color: #ff6600;
+}
+
+.ravibgstar-abs h2 {
+    margin: 10px 0; 
+    text-align: center;
+    color: white;
+}
+
+/* Button Styles */
+.ravibutton {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Specific Styling for Registration Now Button */
+.raviregistration-btn {
+    background-color: red; /* Default Red Button */
+    color: white;
+    font-size: 18px; /* Larger Text */
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    animation: raviblink 1s infinite; /* Blinking Effect */
+}
+
+/* Blinking Red and Green Animation */
+@keyframes raviblink {
+    0% { background-color: red; }
+    50% { background-color: green; }
+    100% { background-color: red; }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .ravibgstar-abs {
+        padding: 15px;
+    }
+
+    .raviregistration-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+/* end Luxury Residential Plots Section */
+
+/* Start Payment Plan excel table Section */
+.custom-container {
+    padding: 20px; /* Proper padding */
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Set a max-width for layout */
+    position: relative; /* For overlap effect */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide any overflow */
+    margin-bottom: 20px;
+  }
+  
+  /* Overlap Effect */
+  .custom-table-container {
+    background: #fefedf;
+    padding: 15px;
+    margin-top: -40px; /* Creates slight overlap */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for overlap effect */
+  }
+  
+  /* Table Styling (Excel-like) */
+  .excel-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .excel-table th, .excel-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styling */
+  .main-th {
+    background-color: #ea7642;
+    color: #1D4534;
+    font-weight: bold;
+  }
+  
+  /* Alternating Row Colors */
+  .excel-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+    
+  /* GST Text Styling */
+  .gst small {
+    color: #555;
+  }
+  
+  /* Adding proper margins */
+  .section-header {
+    margin-bottom: 30px;
+  }
+
+
+  @media (max-width: 768px) {
+    /* Make the table scrollable horizontally */
+    .table-responsive {
+      overflow-x: auto; /* Enable horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Enable smoother scrolling on iOS */
+    }
+
+    /* Ensure the table is centered and readable */
+    .excel-table {
+      width: 100%; /* Let the table take full width */
+      min-width: 600px; /* Set a minimum width for the table to ensure readability */
+    }
+
+    /* Center text properly */
+    .table th, .table td {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+  
+  /* end Payment Plan excel table Section */
+
+
+  /* icici bank loan banner styling */
+
+  .bank-loan-banner {
+    padding: 20px 0; /* Add padding to the top and bottom */
+    background-color: aliceblue; /* Optional background color */
+}
+
+.bank-loan-banner h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Spacing between heading and image */
+}
+
+.banner-container {
+    justify-content: center; /* Horizontally centers the banner on all screens */
+    align-items: center;     /* Vertically aligns the content */
+}
+
+.banner-box {
+    text-align: center; /* Ensures the image is centered in the box */
+}
+
+.banner-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+    .bank-loan-banner h2 {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+        padding: 0 10px; /* Padding to prevent text from hitting the edges on mobile */
+    }
+
+    .banner-container {
+        padding: 0 15px; /* Add padding on mobile to give some space on the sides */
+    }
+
+    .banner-image {
+        max-width: 100%; /* Ensure the image takes full width of the screen on mobile */
+    }
+}
+/* icici bank loan banner styling */
+
+
+/* Main Container for 3D Flip Boxes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.heading hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+/* Container styles updated */
+.rk.container {
+    display: flex;
+    justify-content: space-between; /* Align items across full width */
+    flex-wrap: wrap;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.about-spiti-rk {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Flip Box Styles */
+.flip-box-container {
+    display: flex;
+    justify-content: space-between; /* Space between flip boxes */
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    width: 100%; /* Take full width of the container */
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 23%; /* Take nearly 1/4th width on desktop */
+    height: 350px;
+    perspective: 1000px;
+    box-sizing: border-box;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-box-front img {
+    width: 100%; /* Full width image */
+    height: 70%;
+    object-fit: cover;
+}
+
+.flip-box-front h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.flip-box-back {
+    background-color: #f8f8f8;
+    color: #333;
+    transform: rotateX(180deg);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flip-box-back p {
+    margin-bottom: 20px;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe57;
+}
+
+/* Responsive Design for Mobile and Tablets */
+@media (max-width: 768px) {
+    .flip-box {
+        width: 100%; /* Full width on mobile/tablet */
+        margin-bottom: 20px; /* Add space between stacked boxes */
+    }
+}
+
+@media (max-width: 1200px) {
+    .flip-box {
+        width: 48%; /* Half-width on tablets */
+        margin-bottom: 20px;
+    }
+}
+
+/* Main Container for 3D Flip Boxes */
+
+
+/* location conectivity */
+.banner-img {
+    width: 100%;
+    height: auto;
+    max-width: 1448px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Styling for the SITE PLAN title with a background bar */
+.site-plan-title {
+    display: inline-block;
+    background-color: #007bff; /* Change this color to your desired background color */
+    color: #fff; /* Text color on the background bar */
+    padding: 10px 20px; /* Adjust padding to make the background bar look like a nav bar */
+    font-size: 2rem; /* Font size for the title */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin-bottom: 20px; /* Add space below the title */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow */
+}
+
+/* Last footer bar  Footer Navigation Bar */
+
+  /* Footer Container */
+  .footer-container {
+    padding: 10px 0;
+    background-color: aliceblue; /* Light background to differentiate footer */
+    border-top: 1px solid #00821a; /* Border at the top of the footer */
+    position: relative; /* Ensures it's at the bottom of the content */
+    width: 100%; /* Full width */
+  }
+
+  /* Footer Navigation */
+  .footer-nav {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center the items horizontally */
+  }
+
+  /* Footer Nav Links */
+  .footer-nav li {
+    display: inline-block; /* Display list items inline */
+    margin: 0 15px; /* Space between links */
+  }
+
+  .footer-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Bold text */
+    font-size: 14px; /* Set font size */
+  }
+
+  /* Hover effect for links */
+  .footer-nav a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+
+  /* Responsive Styling for Mobile */
+  @media (max-width: 768px) {
+    .footer-nav {
+      flex-direction: column; /* Stack links vertically on small devices */
+    }
+
+    .footer-nav li {
+      margin: 10px 0; /* Add space between links */
+    }
+  }
+
+  /* Prevent overflow issue for small devices */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+
+  /* Ensure the entire page has proper spacing for mobile */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; /* Makes padding part of the total width/height */
+  }
+
+  /* end  footer bar  Footer Navigation Bar */
+
+  
+  /* site map for bank recers line */
+  .naveen-loan-banner {
+   background-color: #ea7642;
+   padding: 10px;
+   margin-bottom: 0;
+   margin-top: 10px;
+  }
+  /* site map for bank recers line */
+
+  /* refund amount */
+  .refund-loan-amount {
+    background-color: #ea7642;
+    padding: 10px;
+    margin-bottom: 20px;
+   }
+   /* refund amount */
+
+
+
+/* Pop-Pup Buttons styling */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Popup Overlay (Full-screen black background with subtle opacity) */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* On top of all content */
+}
+
+/* Popup Container with a subtle overlay and centered */
+.popup-container {
+    position: relative;
+    background-color: #fff;
+    padding: 20px; /* Padding around the image */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    max-width: 80%; /* Adjust size on desktop */
+    max-height: 80%; /* Prevent overflow */
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+.close-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Popup Image Styling */
+.popup-image {
+    width: auto; /* Set to the full width of your image */
+    height: 500px; /* Maintain aspect ratio */
+    max-width: 100%; /* Scale down for smaller screens */
+    max-height: 100%; /* Prevent overflow */
+    border: 5px solid #ddd; /* Border for better visuals */
+    border-radius: 10px; /* Rounded corners */
+    object-fit: contain; /* Ensure image fits the container */
+    margin-top: 10px;
+}
+    
+
+/* Subtle overlay effect on hover */
+.popup-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .popup-container {
+        max-width: 95%; /* Adjust container size on smaller screens */
+        max-height: 80%;
+        padding: 10px; /* Reduce padding */
+    }
+
+    .close-btn {
+        font-size: 20px; /* Adjust close button size on mobile */
+        top: 5px;
+        right: 10px;
+    }
+}
+
+
+
+/* start Footer Styles */
+/* Footer Styles */
+.footer-container {
+    background-color: #f8f9fa;
+    border-top: 2px solid #00821a;
+    padding: 40px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180px; /* Set a fixed height for all boxes */
+}
+
+.footer-box h3 {
+    color: #00821a;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.footer-box p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+.disclaimer-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.disclaimer-box h4 {
+    color: #00821a;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+
+.disclaimer-box p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.copyright-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.copyright-info a {
+    color: #00821a;
+    text-decoration: none;
+}
+
+.copyright-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-box {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto; /* Allow height to adjust on mobile */
+    }
+}
+
+.footer-links-copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #00821a;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright-info {
+    font-size: 0.9rem;
+}
+
+.copyright-info a {
+    color: #00821a;
+    text-decoration: none;
+}
+
+.copyright-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-links a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* footer last line end */
+
+
+
+
+/* Countdown */
+.timer{
+    text-align: center;
+}
+
+.timer ul{
+    margin-left: 0;
+}
+  
+  .timer #countdown li {
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    background-color: #265bab;
+    color: #fff;
+    width: 8rem;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  
+  .timer #countdown li span {
+    display: block;
+    font-size: 4.5rem;
+    margin-top: -21px;
+    height: 89px;
+  }
+  
+  @media all and (max-width: 768px) {
+    .timer{
+        /* margin-top: 27rem; */
+    }
+
+    .timer #countdown li {
+      font-size: calc(1.125rem * var(--smaller));
+      padding: 10px;
+    }
+    
+    .timer #countdown li span {
+        margin-top: 0;
+        font-size: 4rem;
+    }
+  }
+
+
+
+  .countup {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .countup h3{
+    color: #00821a;
+    color: #00821a;
+    font-size: 38px;
+    margin: 10px 0;
+  }
+
+  .countup .timeel {
+    display: inline-block;
+    padding: 10px;
+    background: #00821a;
+    margin: 0;
+    color: white;
+    min-width: 2.6rem;
+    margin-left: 13px;
+    border-radius: 10px 0 0 10px;
+  }
+  .countup span[class*="timeRef"] {
+    border-radius: 0 10px 10px 0;
+    margin-left: 0;
+    background: #eb8424;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+#formMessage p{
+    color: green;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* Location Advantage Img area */
+.location-advantage .img-area{
+    margin: 1rem 0;
+}
+
+.location-advantage .img-area h3{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.location-advantage .img-area img{
+    background-color: #ff6600;
+    padding: 3px;
+    border-radius: 10px;
+    height: 13rem;
+    width: 18rem;
+}
+
+
+
+
+#paymentplan p{
+    color: red;
+}
+
+.brochures{
+    padding: 2rem 0;
+}
+
+.brochures h1{
+    margin-bottom: 4rem;
+    font-size: 45px;
+    color: #00821a;
+}
+
+#siteplan{
+    padding-top: 2rem;
+}
+
+
+#accountDetailsSection .all-content{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+#accountDetailsSection .img-area img{
+    width: 12rem;
+}
